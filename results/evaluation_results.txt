@@ -1,0 +1,28 @@
+Face Mask Detection - Evaluation Results
+================================================================================
+
+Model: models/checkpoints/best_model.keras
+IoU Threshold: 0.5
+
+mAP@IoU=0.5: 0.0368
+Overall Accuracy: 0.8594
+
+Per-class Metrics:
+
+  with_mask:
+    Precision: 0.8860
+    Recall: 0.9528
+    F1-Score: 0.9182
+    AP: 0.1105
+
+  without_mask:
+    Precision: 0.5833
+    Recall: 0.4118
+    F1-Score: 0.4828
+    AP: 0.0000
+
+  mask_weared_incorrect:
+    Precision: 1.0000
+    Recall: 0.4000
+    F1-Score: 0.5714
+    AP: 0.0000
